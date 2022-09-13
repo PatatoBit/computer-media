@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Computer Media Project</title>
         <meta
           name="description"
-          content="ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+          content="A computer project website, made with NextJS and TailwindCSS."
         />
         <link
           rel="icon"

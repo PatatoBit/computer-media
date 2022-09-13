@@ -7,10 +7,8 @@ function Map() {
         <div className="container">
           <h1 className="text-5xl text-center">About</h1>
           <p className="content my-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-            exercitationem eligendi reiciendis impedit quibusdam non nemo
-            repellendus inventore totam nostrum ipsam ipsa placeat, sed id? A
-            similique omnis rem excepturi.
+            A school in Chacheongsao, Thailand. That teaches 3 languages. Used
+            to be somewhere else they moved here.
           </p>
 
           <iframe
