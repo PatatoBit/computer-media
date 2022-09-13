@@ -19,11 +19,11 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main className="fullflex">
+      <div className="fullflex">
         <div className="container">
           <h1 className="text-6xl text-center">Intertots Trillingual School</h1>
         </div>
-      </main>
+      </div>
 
       <Map />
       <Blogs />

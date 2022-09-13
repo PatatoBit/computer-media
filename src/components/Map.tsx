@@ -3,7 +3,7 @@ import React from "react";
 function Map() {
   return (
     <>
-      <main className="fullflex">
+      <div className="fullflex">
         <div className="container">
           <h1 className="text-5xl text-center">About</h1>
           <p className="content my-3">
@@ -22,11 +22,9 @@ function Map() {
             marginHeight={0}
             marginWidth={0}
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=M29W+534,%20Sothon,%20Mueang%20Chachoengsao%20District,%20Chachoengsao%2024000+(Intertots%20Trillingual%20Schoi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          >
-            <a href="https://www.gps.ie/sport-gps/">hiking gps</a>
-          </iframe>
+          ></iframe>
         </div>
-      </main>
+      </div>
     </>
   );
 }
