@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Chonburi", cursive;
+}
+
+.content {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fullflex {
+  @apply w-full h-screen items-center justify-center flex flex-col;
+  background-image: url("/papyrus.png");
+}
+
+.image {
+  background-image: url("/papyrus.png");
+}
+
+.container {
+  @apply max-w-3xl border-2 border-slate-700 p-4 bg-white;
+}
