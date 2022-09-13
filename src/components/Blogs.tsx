@@ -11,7 +11,7 @@ function Blogs() {
               saepe esse iure perspiciatis ipsa laboriosam tempora iusto iste
               nisi quam, laborum, consequatur debitis laudantium! Doloribus
               laudantium voluptas in quibusdam."
-          link="/"
+          link="/blog"
         />
       </div>
     </div>
