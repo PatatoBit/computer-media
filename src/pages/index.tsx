@@ -14,7 +14,10 @@ const Home: NextPage = () => {
           name="description"
           content="ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://www.lego.com/cdn/cs/set/assets/blta93a030f7e94e881/21332.png?fit=bounds&format=png&width=1500&height=1500&dpr=1"
+        />
         <meta
           property="og:image"
           content="https://thumbs2.imgbox.com/95/a9/rpCfIJHb_t.jpg"
