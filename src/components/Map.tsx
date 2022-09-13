@@ -8,7 +8,8 @@ function Map() {
           <h1 className="text-5xl text-center">About</h1>
           <p className="content my-3">
             A school in Chacheongsao, Thailand. That teaches 3 languages. Used
-            to be somewhere else they moved here.
+            to be somewhere else but they moved here back in around 2017. I
+            can&apos;t remember
           </p>
 
           <iframe
