@@ -46,39 +46,67 @@ function Blog() {
 
 function Positive() {
   return (
-    <p className="content w-3/4 h-3/4">
-      A school for children in Nursery Kindergarten through Grade 1–9, Intertots
-      Trilingual School places a strong emphasis on language skills among other
-      subjects. They teach three languages: Thai, English, and Chinese. The
-      first class begins at 7:10 am and ends at 16:00. Each class has a
-      different schedule depending on how much material needs to be learned; the
-      older you are, the more lessons you need to learn. Lunch is served at
-      12:00 and is decently tasty; you can order food from the cafe if you need
-      to, but you must be in grade 7 or higher to do so.
-    </p>
+    <div className="flex flex-col items-center justify-center h-full">
+      <p className="content w-3/4 h-3/4">
+        A school for children in Nursery Kindergarten through Grade 1–9,
+        Intertots Trilingual School places a strong emphasis on language skills
+        among other subjects. They teach three languages: Thai, English, and
+        Chinese. The first class begins at 7:10 am and ends at 16:00. Each class
+        has a different schedule depending on how much material needs to be
+        learned; the older you are, the more lessons you need to learn. Lunch is
+        served at 12:00 and is decently tasty; you can order food from the cafe
+        if you need to, but you must be in grade 7 or higher to do so.
+        <iframe
+          width={560 / 2}
+          height={315 / 2}
+          src="https://www.youtube.com/embed/CcG0o7wCn4w"
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </p>
+    </div>
   );
 }
 
 function Negative() {
   return (
-    <p className="content w-3/4 h-3/4">
-      Intertots trilingual school is a school for Nursery Kindergarten and Grade
-      1~9 focusing on many education especially language skills. They teach 3
-      languages: Thai, English, Chinese.The first class start at 7:10 am which
-      is earlier than average school around the world and ends at 16:00.Every
-      class has different schedules depend on how much they need to learn,the
-      older you are the more lessons you need to learn.Launch at 12:00 which
-      have decent-taste food or you can order food from cafe If you need to but
-      you need to be atleast grade7 or above to order it.(ello patato,It’s
-      actually so หมาไม่แดก but I can’t say that so pls delete this or come up
-      with more polite word)On the other hand,due to too much education that
-      also build up to students’ stress or lack of rest time.That contribute to
-      students being unsociable or speak and answer less questions during
-      class.More time used on education that effect them to have lesser time to
-      do the activities they actually want to do such as improving their hobbies
-      skill aside from educating.Eventhough their math and science are not
-      really the best in the country but their language skills are pretty good.
-    </p>
+    <div className="flex flex-col items-center justify-center">
+      <p className="content w-3/4 h-3/4">
+        Intertots trilingual school is a school for Nursery Kindergarten and
+        Grade 1~9 focusing on many education especially language skills. They
+        teach 3 languages: Thai, English, Chinese.The first class start at 7:10
+        am which is earlier than average school around the world and ends at
+        16:00.Every class has different schedules depend on how much they need
+        to learn,the older you are the more lessons you need to learn.Launch at
+        12:00 which have decent-taste food or you can order food from cafe If
+        you need to but you need to be atleast grade7 or above to order it.(ello
+        patato,It’s actually so หมาไม่แดก but I can’t say that so pls delete
+        this or come up with more polite word)On the other hand,due to too much
+        education that also build up to students’ stress or lack of rest
+        time.That contribute to students being unsociable or speak and answer
+        less questions during class.More time used on education that effect them
+        to have lesser time to do the activities they actually want to do such
+        as improving their hobbies skill aside from educating.Eventhough their
+        math and science are not really the best in the country but their
+        language skills are pretty good.
+      </p>
+
+      <p className="content w-3/4 h-3/4">
+        So I have heard that they&apos;re changing to 7:00 - 17:00. So 10 hours
+        of school. As if 9 hours wasn&apos;t enough
+        <iframe
+          width={560 / 2}
+          height={315 / 2}
+          src="https://www.youtube.com/embed/CcG0o7wCn4w"
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </p>
+    </div>
   );
 }
 
